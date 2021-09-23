@@ -40,3 +40,11 @@
 .ex-5-square:hover {
     transform: scale(2);
 }
+
+/*ESERCIZO 6*/
+.ex-6-img {
+    transition: filter;
+}
+.ex-6-img:hover {
+    filter: grayscale(1);
+}

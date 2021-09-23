@@ -3,7 +3,15 @@
 .ex-1-square {
     transition: background-color 2s;
 }
-
 .ex-1-square:hover {
     background-color: red;
+}
+
+/*ESERCIZIO 2*/
+.ex-2-square {
+    width: 100px;
+    transition: width 2s;
+}
+.ex-2-square:active {
+    width: 100%;
 }

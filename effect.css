@@ -64,3 +64,16 @@
 .ex-8-img:hover {
     border-radius: 15px;
     filter: sepia(0.5) grayscale(0.5);
+}    
+
+/*ESERCIZO 9*/
+.ex-9-img {
+    transition: all 2s;
+}
+.ex-9-img:hover {
+    border-radius: 15px;
+    filter: sepia(0.5) grayscale(0.5);
+    transform: scale(1.5);
+}  
+
+

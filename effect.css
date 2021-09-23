@@ -78,7 +78,7 @@
 
 /*ESERCIZO 10*/
 .ex-10-icon {
-    animation: esercizio10 1.5s linear infinite;
+    animation: esercizio10 1s linear infinite;
 }
 @keyframes esercizio10{
     0%{
@@ -86,5 +86,21 @@
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+
+/*ESERCIZO 11*/
+.ex-11-icon:hover {
+    animation: esercizio11 2.5s;
+}
+@keyframes esercizio11{
+    0%{
+        transform: rotate(0);
+    }
+    85%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(0);
     }
 }

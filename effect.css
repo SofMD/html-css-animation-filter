@@ -76,4 +76,15 @@
     transform: scale(1.5);
 }  
 
-
+/*ESERCIZO 10*/
+.ex-10-icon {
+    animation: esercizio10 1.5s linear infinite;
+}
+@keyframes esercizio10{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
